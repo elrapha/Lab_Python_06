@@ -57,7 +57,6 @@ def highest_score(player_stats):
             highest=player_stats[p][1][1]
             theplayer=p
             thedate=player_stats[p][0][1]
-    print (theplayer,thedate,highest)
     return (theplayer,thedate,highest)
 print highest_score(player_stats)
 ## implement highest_score_for_player
@@ -70,8 +69,7 @@ def highest_score_for_player(player_stats,player):
         if highest< score:
             highest=score
             thedate=player_stats[player][0][i]
-    print (player,str(thedate),highest)
-    return highest
+    return (player,thedate,highest)
 
 player='torres'
 print player+ "'s ",\
@@ -88,6 +86,25 @@ def highest_scorer(player_stats):
             theplayer=p
     return theplayer
 print 'the Player is ',highest_scorer(player_stats)
+
+
+
+
+
+
+
+
+<<<<<<< HEAD
+
+
+
+
+=======
+## implement highest_score
+
+
+## implement highest_score_for_player
+>>>>>>> dd6c931fd69fd574dea64e7ef796d56adad263a6
 
 
 
