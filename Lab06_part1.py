@@ -3,6 +3,8 @@ Lab_Python_06
 Part 1
 """
 
+import datetime
+
 """
 Whatever the datastructure you choose,
 it should represent the following data:
@@ -92,10 +94,17 @@ print 'the Player is ',highest_scorer(player_stats)
 
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+## implement highest_score
+
+
+## implement highest_score_for_player
+>>>>>>> dd6c931fd69fd574dea64e7ef796d56adad263a6
 
 
 
